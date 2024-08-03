@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio-Andrew C Anil</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "ZE6wNFPUv06f368y-",
+                });
+            })();
+        </script>
+    </head>
+    <body>
+
+        <header>
+            <div class="MainPane">
+                <img src="profpic.jpg" alt="Profile Picture" class="prof-pic">
+                <h1>Andrew C Anil</h1>
+                <h3>Cybersecurity Student</h3>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-container">
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/iamandrewcanil" target="_blank">
+                    <img src="insta.jpeg" alt="Instagram" class="social-icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/iamandrewcanil" target="_blank">
+                    <img src="linkedin.jpeg" alt="LinkedIn" class="social-icon"></a></li>
+                <li><a href="https://x.com/iamandrewcanil" target="_blank">
+                    <img src="x.jpeg" alt="Twitter" class="social-icon"></a></li>
+                <li><a href="https://iamandrewcanil.medium.com" target="_blank">
+                    <img src="medium.jpeg" alt="Medium" class="social-icon"></a></li>
+                <li><a href="https://github.com/iamandrewcanil" target="_blank">
+                    <img src="github.jpeg" alt="GitHub" class="social-icon"></a></li>
+            </ul>
+        </div>
+
+        <section id="about" class="MainPane">
+            <h2>About Me</h2>
+            <p>Welcome to my Portfolio! I am a dedicated third-year BTech student pursuing a degree in Computer Science and Engineering with a specialization in Cybersecurity. My passion for technology and its impact on our lives motivates me to make a significant difference in the cybersecurity industry.</p>
+
+            <p>Through my involvement in various clubs and the Student Council, I have honed my leadership skills and developed a deep understanding of effective teamwork and collaboration. My enthusiasm and strong communication abilities enable me to connect with individuals from diverse backgrounds and work towards common goals.</p>
+                
+            <p>Cybersecurity is my primary focus. I am committed to staying updated on industry trends and best practices to make meaningful contributions to the field.</p>
+                
+             <p>My key strengths include problem-solving, thriving in challenging situations, and a relentless drive to push my boundaries and learn new technologies. These attributes give me a competitive edge in the cybersecurity domain.</p>
+                
+            <p>If you are looking for a passionate, dedicated individual with strong leadership potential and a keen interest in cybersecurity, I would be delighted to connect with you. Let's explore opportunities to collaborate, contribute, and make a positive impact together.</p>
+                
+            <p>Feel free to reach out to me on LinkedIn,Instagram,X,GitHub or Medium or mail me at aca.andrewcanil@gmail.com. I look forward to connecting with like-minded professionals and expanding my network.</p>
+        </section>
+
+        <section id="contact" class="MainPane">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+        <footer class="MainPane">
+            <p>&copy; 2024 Andrew C Anil. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
